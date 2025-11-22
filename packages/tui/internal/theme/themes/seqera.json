@@ -1,0 +1,259 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "seqeraDarkPurple": "#160F26",
+    "seqeraRoyalBlue": "#4256E7",
+    "seqeraPlatform": "#52428C",
+    "nextflowColor": "#0DC09D",
+    "waveColor": "#3D95FD",
+    "multiqcColor": "#F18046",
+    "fusionColor": "#FA6863",
+    "platformScale1": "#EAE8F1",
+    "platformScale2": "#CBC6DD",
+    "platformScale3": "#A9A1C6",
+    "platformScale4": "#867BAF",
+    "platformScale5": "#6C5E9D",
+    "platformScale6": "#4A3C7F",
+    "platformScale7": "#40346D",
+    "platformScale8": "#362C5D",
+    "platformScale9": "#251E3F",
+    "nextflowScale1": "#E2F7F3",
+    "nextflowScale2": "#B6ECE2",
+    "nextflowScale3": "#86E0CE",
+    "nextflowScale4": "#56D3BA",
+    "nextflowScale5": "#31C9AC",
+    "nextflowScale6": "#0CAE8E",
+    "nextflowScale7": "#0A967B",
+    "nextflowScale8": "#087F68",
+    "nextflowScale9": "#065647",
+    "waveScale1": "#E8F2FF",
+    "waveScale2": "#C5DFFE",
+    "waveScale3": "#9ECAFE",
+    "waveScale4": "#77B5FE",
+    "waveScale5": "#5AA5FD",
+    "waveScale6": "#3787E5",
+    "waveScale7": "#3074C5",
+    "waveScale8": "#2863A7",
+    "waveScale9": "#1B4372",
+    "multiqcScale1": "#FDF0E9",
+    "multiqcScale2": "#FBD9C8",
+    "multiqcScale3": "#F8C0A3",
+    "multiqcScale4": "#F5A67E",
+    "multiqcScale5": "#F39362",
+    "multiqcScale6": "#DA743F",
+    "multiqcScale7": "#BC6437",
+    "multiqcScale8": "#A0552F",
+    "multiqcScale9": "#6C3A20",
+    "fusionScale1": "#FEEDEC",
+    "fusionScale2": "#FED2D0",
+    "fusionScale3": "#FDB4B1",
+    "fusionScale4": "#FC9592",
+    "fusionScale5": "#FB7F7A",
+    "fusionScale6": "#E25E5A",
+    "fusionScale7": "#C3514D",
+    "fusionScale8": "#A64541",
+    "fusionScale9": "#712F2C"
+  },
+  "theme": {
+    "primary": {
+      "dark": "seqeraRoyalBlue",
+      "light": "seqeraPlatform"
+    },
+    "secondary": {
+      "dark": "waveColor",
+      "light": "waveScale7"
+    },
+    "accent": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "error": {
+      "dark": "fusionColor",
+      "light": "fusionScale7"
+    },
+    "warning": {
+      "dark": "multiqcColor",
+      "light": "multiqcScale7"
+    },
+    "success": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "info": {
+      "dark": "waveColor",
+      "light": "waveScale7"
+    },
+    "text": {
+      "dark": "#f5f5f5",
+      "light": "seqeraDarkPurple"
+    },
+    "textMuted": {
+      "dark": "platformScale3",
+      "light": "platformScale7"
+    },
+    "background": {
+      "dark": "seqeraDarkPurple",
+      "light": "#ffffff"
+    },
+    "backgroundPanel": {
+      "dark": "platformScale9",
+      "light": "platformScale1"
+    },
+    "backgroundElement": {
+      "dark": "platformScale8",
+      "light": "platformScale2"
+    },
+    "border": {
+      "dark": "platformScale7",
+      "light": "platformScale3"
+    },
+    "borderActive": {
+      "dark": "platformScale6",
+      "light": "platformScale4"
+    },
+    "borderSubtle": {
+      "dark": "platformScale8",
+      "light": "platformScale2"
+    },
+    "diffAdded": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "diffRemoved": {
+      "dark": "fusionColor",
+      "light": "fusionScale7"
+    },
+    "diffContext": {
+      "dark": "platformScale4",
+      "light": "platformScale6"
+    },
+    "diffHunkHeader": {
+      "dark": "platformScale4",
+      "light": "platformScale6"
+    },
+    "diffHighlightAdded": {
+      "dark": "nextflowScale4",
+      "light": "nextflowScale6"
+    },
+    "diffHighlightRemoved": {
+      "dark": "fusionScale4",
+      "light": "fusionScale6"
+    },
+    "diffAddedBg": {
+      "dark": "#0d2420",
+      "light": "nextflowScale1"
+    },
+    "diffRemovedBg": {
+      "dark": "#2d1a1f",
+      "light": "fusionScale1"
+    },
+    "diffContextBg": {
+      "dark": "platformScale9",
+      "light": "platformScale1"
+    },
+    "diffLineNumber": {
+      "dark": "platformScale8",
+      "light": "platformScale2"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#0a1f1c",
+      "light": "nextflowScale2"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#24161a",
+      "light": "fusionScale2"
+    },
+    "markdownText": {
+      "dark": "#f5f5f5",
+      "light": "seqeraDarkPurple"
+    },
+    "markdownHeading": {
+      "dark": "seqeraRoyalBlue",
+      "light": "seqeraPlatform"
+    },
+    "markdownLink": {
+      "dark": "waveColor",
+      "light": "waveScale7"
+    },
+    "markdownLinkText": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "markdownCode": {
+      "dark": "nextflowScale4",
+      "light": "nextflowScale7"
+    },
+    "markdownBlockQuote": {
+      "dark": "multiqcScale4",
+      "light": "multiqcScale7"
+    },
+    "markdownEmph": {
+      "dark": "platformScale3",
+      "light": "platformScale6"
+    },
+    "markdownStrong": {
+      "dark": "seqeraRoyalBlue",
+      "light": "seqeraPlatform"
+    },
+    "markdownHorizontalRule": {
+      "dark": "platformScale7",
+      "light": "platformScale3"
+    },
+    "markdownListItem": {
+      "dark": "waveColor",
+      "light": "waveScale7"
+    },
+    "markdownListEnumeration": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "markdownImage": {
+      "dark": "waveColor",
+      "light": "waveScale7"
+    },
+    "markdownImageText": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "markdownCodeBlock": {
+      "dark": "#f5f5f5",
+      "light": "seqeraDarkPurple"
+    },
+    "syntaxComment": {
+      "dark": "platformScale4",
+      "light": "platformScale6"
+    },
+    "syntaxKeyword": {
+      "dark": "seqeraRoyalBlue",
+      "light": "seqeraPlatform"
+    },
+    "syntaxFunction": {
+      "dark": "waveColor",
+      "light": "waveScale7"
+    },
+    "syntaxVariable": {
+      "dark": "platformScale3",
+      "light": "platformScale7"
+    },
+    "syntaxString": {
+      "dark": "nextflowColor",
+      "light": "nextflowScale7"
+    },
+    "syntaxNumber": {
+      "dark": "multiqcColor",
+      "light": "multiqcScale7"
+    },
+    "syntaxType": {
+      "dark": "nextflowScale4",
+      "light": "nextflowScale8"
+    },
+    "syntaxOperator": {
+      "dark": "fusionColor",
+      "light": "fusionScale7"
+    },
+    "syntaxPunctuation": {
+      "dark": "platformScale3",
+      "light": "platformScale7"
+    }
+  }
+}

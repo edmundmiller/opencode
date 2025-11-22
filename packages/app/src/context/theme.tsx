@@ -30,7 +30,7 @@ interface ThemeProviderProps {
   defaultDarkMode?: boolean
 }
 
-const themes = ["opencode", "tokyonight", "ayu", "nord", "catppuccin", "nextflow"]
+const themes = ["opencode", "tokyonight", "ayu", "nord", "catppuccin", "nextflow", "seqera"]
 
 export const ThemeProvider: ParentComponent<ThemeProviderProps> = (props) => {
   const [theme, setThemeSignal] = createSignal<string | undefined>()
